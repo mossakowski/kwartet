@@ -1,19 +1,56 @@
-$logoColor : #ff6335;
+$logoColor: #ff6335;
+$background: #1D3621;
+$background2: #35580E;
+
+body {
+  background-color: $background;
+  color: #fff;
+}
 
 .text-logo {
   color: $logoColor;
 }
 
-.header {
-  position: fixed;
-  width: 100%;
-  background: #35580E;
-  z-index: 999;
+.navbar {
+  background: $background2;
+
+  .navbar-brand {
+    color: $logoColor;
+    font-family: 'Alex Brush', cursive;
+    font-size: 3rem;
+    &:hover {
+      color: $logoColor;
+    }
+    &:focus {
+      color: $logoColor;
+    }
+  }
+
+  .navbar-collapse {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: #fff;
+          font-size: 1.25rem;
+          padding: 0.5em 1em;
+
+          &:hover {
+            color: $logoColor;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-toggler {
+    background-color: #efefef3d;
+
+    .navbar-toggler-icon {}
+  }
 }
 
-.slider {
-  height: 100vh;
-  width: 100vw;
+#intro {
+  margin-top: 70px;
 }
 
 .about-img {
@@ -23,10 +60,6 @@ $logoColor : #ff6335;
 
 #members {
   width: 100%;
-}
-
-#intro {
-  margin-top: 80px;
 }
 
 .parallax-window {
@@ -65,7 +98,6 @@ $logoColor : #ff6335;
   opacity: 0.8;
   background: #252525;
 }
-
 @mixin profile-img-property {
   height: 200px;
   width: 200px;
@@ -77,45 +109,49 @@ $logoColor : #ff6335;
 #musicians {
   .profile-img-container {
     position: relative;
+
     .profile-img-bg {
       @include profile-img-property;
-    &:hover .profile-img-overlay {
-      display: block;
-      @include profile-img-property;
-      // background-image:url('../img/profilowe/wiolonczela.png');
-      // background-repeat: no-repeat;
-      // background-position-y: 75%;
-      // background-position-x: 50%;
-      opacity: 1;
-    }
-    .profile-img-overlay {
-      display: none;
-      @include profile-img-property;
-      -webkit-transition: 5s;
-      transition: 5s;
-    }
-    .profile-img-description {
-      display: none;
-      opacity: 0;
-    }
-    &:hover .profile-img-description {
-      display: block;
-      opacity: 1;
-      color: #000;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+
+      &:hover .profile-img-overlay {
+        display: block;
+        @include profile-img-property;
+        // background-image:url('../img/profilowe/wiolonczela.png');
+        // background-repeat: no-repeat;
+        // background-position-y: 75%;
+        // background-position-x: 50%;
+        opacity: 1;
+      }
+
+      .profile-img-overlay {
+        display: none;
+        @include profile-img-property;
+        -webkit-transition: 5s;
+        transition: 5s;
+      }
+
+      .profile-img-description {
+        display: none;
+        opacity: 0;
+      }
+
+      &:hover .profile-img-description {
+        display: block;
+        opacity: 1;
+        color: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
     }
   }
-}
 
   .profile-img-musican {
     border-radius: 100px;
   }
 }
-
 //plyr
 .playlist {
   width: 100%;
@@ -506,13 +542,11 @@ $logoColor : #ff6335;
   }
 }
 
-
 .test {
   height: 50vh;
-  overflow-y:scroll;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
-
 //contact
 #contact {
   .contact-profile {
@@ -521,21 +555,21 @@ $logoColor : #ff6335;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
     .contact-photo {
       width: 150px;
       height: 150px;
     }
   }
 }
-
 //footer
 footer {
-  background-color: #35580E;
+  background-color: $background2;
 
   img {
     width: 100px;
