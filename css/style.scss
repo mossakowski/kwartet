@@ -11,6 +11,20 @@ body {
   color: $logoColor;
 }
 
+.breakline-502 {
+  display: none;
+  @media screen and (max-width: 502px) {
+    display: inline;
+  }
+}
+
+.breakline-368 {
+  display: none;
+  @media screen and (max-width: 368px) {
+    display: inline;
+  }
+}
+
 .navbar {
   background: $background2;
 
@@ -23,6 +37,9 @@ body {
     }
     &:focus {
       color: $logoColor;
+    }
+    @media screen and (max-width: 502px) {
+      line-height: 2.5rem;
     }
   }
 
