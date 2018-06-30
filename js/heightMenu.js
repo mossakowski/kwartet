@@ -1,4 +1,8 @@
-var navEl = document.getElementsByTagName('nav');
-var introEl = document.getElementById('intro');
-var heightNav = navEl[0].clientHeight + 'px';
-introEl.setAttribute('style','margin-top:' + heightNav);
+function setHeight() {
+  var navEl = document.getElementsByTagName('nav');
+  var introEl = document.getElementById('intro');
+  var heightNav = navEl[0].clientHeight + 'px';
+  introEl.setAttribute('style','margin-top:' + heightNav);
+}
+
+window.addEventListener('resize',setHeight());
