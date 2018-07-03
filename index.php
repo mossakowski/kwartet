@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pl">
 
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+$mail = new PHPMailer(true);
+include('mailer.php');
+?>
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -15,7 +25,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- <link rel="stylesheet" href="node_modules/plyr/dist/plyr.css"> -->
   <link rel="stylesheet" href="css/plyr.css">
-
+  <title>Marco Gianni Quartet - śląski kwartet smyczkowy</title>
 </head>
 
 <body>
@@ -259,8 +269,8 @@
 
         <div class="col-md-3 text-center">
           <div class="profile-img-container">
-            <div class="profile-img-bg" style="background-image:url('img/profilowe/kasia2.jpg');">
-              <div class="profile-img-overlay" style="background-image:url('img/profilowe/kasia.jpg');"></div>
+            <div class="profile-img-bg" style="background-image:url('img/profilowe/kasia.jpg');">
+              <div class="profile-img-overlay" style="background-image:url('img/profilowe/kasia2.jpg');"></div>
             </div>
 
           </div>
@@ -1103,7 +1113,9 @@
             <img class="contact-photo mr-1" src="img/profilowe/marek_kuznik.jpg">
             <p><b>Manager</b><br> Marek Kuźnik</br>
               tel: +48 729-988-640</br>
-              email: kwartet@good-group69.pl</p>
+              email: kwartet@marco-gianni.pl<br>
+              email: biuro@good-group69.pl<br>
+              <a href="www.marco-gianni.pl">www.marco-gianni.pl</a></p>
 
           </div>
           <div class="contact-profile mb-3">
@@ -1114,66 +1126,55 @@
           </div>
           <div class="contact-profile">
             <img class="contact-photo mr-1" src="img/profilowe/lukasz.jpg">
-            <p><b>Aranżacje muzyczne</b><br> Łukasz
+            <p><b>Aranżacje muzyczne</b><br> Łukasz Hallek
               </br>
           </div>
         </div>
 
 
         <div class="col-md-6">
-          <form class="form-horizontal">
-            <fieldset>
 
+          <form method="post" onsubmit="return Validate();" action="" class="form-horizontal" name="formValidation">
+            <fieldset>
               <!-- Form Name -->
               <legend>Formularz</legend>
-
               <!-- Text input-->
               <div class="form-group">
-                <label class="  control-label" for="name">Imię</label>
+                <label class="control-label" for="sender">Imię*</label>
                 <div class=" ">
-                  <input id="name" name="name" type="text" placeholder="Twoje imie" class="form-control input-md">
-
+                  <input id="sender" name="sender" type="text" placeholder="Twoje imie" class="form-control input-md">
+                  <div id="sender_error" class="form-error"></div>
                 </div>
               </div>
-
               <!-- Text input-->
               <div class="form-group">
-                <label class="  control-label" for="email">Email</label>
-                <div class=" ">
+                <label class="control-label" for="email">Email*</label>
                   <input id="email" name="email" type="text" placeholder="Twój email" class="form-control input-md">
-
-                </div>
+                  <div id="email_error" class="form-error"></div>
               </div>
-
               <!-- Text input-->
               <div class="form-group">
-                <label class="  control-label" for="telefon">Telefon</label>
-                <div class=" ">
-                  <input id="telefon" name="telefon" type="text" placeholder="Twój nr telefonu" class="form-control input-md">
-
-                </div>
+                <label class="control-label" for="telefon">Telefon</label>
+                  <input id="phone" name="phone" type="text" placeholder="Twój nr telefonu" class="form-control input-md">
+                  <div id="error_phone" class="form-error"></div>
               </div>
-
               <!-- Textarea -->
               <div class="form-group">
-                <label class="  control-label" for="messeage">Wiadomość</label>
-                <div class=" ">
-                  <textarea class="form-control" id="messeage" name="messeage">Twoja wiadomość</textarea>
-                </div>
+                <label class="control-label" for="message">Wiadomość*</label>
+                  <textarea class="form-control" id="message" name="message" placeholder="Twoja wiadomość"></textarea>
+                  <div id="message_error" class="form-error"></div>
               </div>
 
-              <!-- Button (Double) -->
               <div class="form-group">
-                <label class="  control-label" for="send"></label>
-                <div class="col-md-8">
-                  <button id="send" name="send" class="btn btn-default">Wyślij</button>
-                  <button id="clear" name="clear" class="btn btn-default">Wyczyść</button>
-                </div>
+                <input type="submit" value="Wyślij">
+                <input type="reset" value="Wyczyść">
               </div>
 
             </fieldset>
           </form>
-
+              <div>
+                <label>* Pola z gwiazdką są wymagane</label>
+              </div>
         </div>
       </div>
     </div>
@@ -1205,6 +1206,14 @@
   </footer>
 
 
+  <script>
+    var temporatyEl = document.getElementById('send2');
+    function temporaryInfo() {
+      alert('Ops, formularz nie działa. Sprawa została zgłoszona, niebawem wszystko będzie ok');
+    }
+    temporatyEl.addEventListener('click',temporaryInfo());
+  </script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -1217,6 +1226,7 @@
   <script src="js/slider.js"></script>
   <script src="js/lazyScroll.js"></script>
   <script src="js/heightMenu.js"></script>
+  <script src="js/validation.js"></script>
 
   <!-- <script src="node_modules/plyr/dist/plyr.js"></script> -->
   <script src="https://cdn.plyr.io/1.6.13/plyr.js"></script>
