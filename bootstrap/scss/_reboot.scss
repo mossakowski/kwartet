@@ -8,9 +8,9 @@
 
 // Reset the box-sizing
 //
-// Change from `box-sizing: content-box` to `border-box` so that when you add
+// Change from; `box-sizing: content-box` to `border-box` so that when you add
 // `padding` or `border`s to an element, the overall declared `width` does not
-// change. For example, `width: 100px;` will always be `100px` despite the
+// change. For example,; `width: 100px;` will always be `100px` despite the
 // `border: 10px solid red;` and `padding: 20px;`.
 //
 // Heads up! This reset may cause conflicts with some third-party widgets. For
@@ -20,13 +20,15 @@
 // Credit: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 
@@ -110,10 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 //
 // Similarly, the top margin on `<p>`s get reset. However, we also reset the
 // bottom margin to use `rem` units instead of `em`.
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+
 
 // Abbreviations
 abbr[title],
@@ -225,8 +224,7 @@ img {
   // centers them. This won't apply should you reset them to `block` level.
   vertical-align: middle;
   // Note: `<img>`s are deliberately not made responsive by default.
-  // For the rationale behind this, see the comments on the `.img-fluid` class.
-}
+  // For the rationale behind this, see the comments on the `.img-fluid` class.;
 
 
 // iOS "clickable elements" fix for role="button"
@@ -314,7 +312,6 @@ textarea {
   // Normalize includes `font: inherit;`, so `font-family`. `font-size`, etc are
   // properly inherited. However, `line-height` isn't inherited there.
   line-height: inherit;
-}
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -335,8 +332,8 @@ input[type="month"] {
   // bug where setting a custom line-height prevents text from being vertically
   // centered within the input.
   // See https://bugs.webkit.org/show_bug.cgi?id=139848
-  // and https://github.com/twbs/bootstrap/issues/11266
-  -webkit-appearance: listbox;
+  // and; https://github.com/twbs/bootstrap/issues/11266;
+  -webkit-appearance: listbox
 }
 
 textarea {
@@ -371,8 +368,8 @@ input[type="search"] {
   // This overrides the extra rounded corners on search inputs in iOS so that our
   // `.form-control` class can properly style them. Note that this cannot simply
   // be added to `.form-control` as it's not specific enough. For details, see
-  // https://github.com/twbs/bootstrap/issues/11586.
-  -webkit-appearance: none;
+  // https://github.com/twbs/bootstrap/issues/11586.;
+  -webkit-appearance: none
 }
 
 // todo: needed?
@@ -386,4 +383,6 @@ output {
 // Always hide an element with the `hidden` HTML attribute (from PureCSS).
 [hidden] {
   display: none !important;
+}
+}
 }

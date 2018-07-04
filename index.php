@@ -16,9 +16,6 @@ include('mailer.php');
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"> -->
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
@@ -1114,8 +1111,7 @@ include('mailer.php');
             <p><b>Manager</b><br> Marek Kuźnik</br>
               tel: +48 729-988-640</br>
               email: kwartet@marco-gianni.pl<br>
-              email: biuro@good-group69.pl<br>
-              <a href="www.marco-gianni.pl">www.marco-gianni.pl</a></p>
+              email: biuro@good-group69.pl</p>
 
           </div>
           <div class="contact-profile mb-3">
@@ -1201,18 +1197,10 @@ include('mailer.php');
       </div>
       <div class="row">
         <div class="col-md-12 text-center">Wszystkie prawa zastrzeżone! Marco Gianni Quartet <span id="footer-year">2018</span></div>
+        <div class="col-md-12 text-center"><a href="www.marco-gianni.pl">www.marco-gianni.pl</a></div>
       </div>
     </div>
   </footer>
-
-
-  <script>
-    var temporatyEl = document.getElementById('send2');
-    function temporaryInfo() {
-      alert('Ops, formularz nie działa. Sprawa została zgłoszona, niebawem wszystko będzie ok');
-    }
-    temporatyEl.addEventListener('click',temporaryInfo());
-  </script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -1238,6 +1226,8 @@ include('mailer.php');
     var footerYear = document.getElementById('footer-year');
     footerYear.innerHTML = currentYear.getFullYear();
   </script>
+
+<!-- <script src="http://localhost:35729/livereload.js"></script> -->
 
 </body>
 

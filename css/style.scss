@@ -580,9 +580,15 @@ body {
       height: 150px;
     }
   }
-  a {
-    color: #fff;
+  .form-error {
+    color: #ff3737;
   }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
 //footer
 footer {
@@ -590,5 +596,12 @@ footer {
 
   img {
     width: 100px;
+  }
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $logoColor;
+    }
   }
 }
