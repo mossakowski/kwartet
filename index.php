@@ -363,7 +363,7 @@ include('mailer.php');
         <div class="col-md-4">
           <ul>
             <li>O Karolino</li>
-            <li>Moja Mała Blądyneczko</li>
+            <li>Moja Mała Blondyneczko</li>
             <li>Jesteś Szalona</li>
             <li>Kochana Uwierz Mi</li>
             <li>Filmowa Miłość</li>
@@ -436,7 +436,7 @@ include('mailer.php');
       <audio controls></audio>
       <div class="test">
         <ul class='playlist--list'>
-          <li data-id="0" data-audio="audio/kwartet2.ogg">Scott Joplin - Country Club
+          <li data-id data-audio="audio/kwartet2.ogg">Scott Joplin - Country Club
             <span class="playlist__active">
             <div></div> <!-- Bars -->
             <div></div>
@@ -462,7 +462,7 @@ include('mailer.php');
             <div></div>
         </span>
           </li>
-          <li data-id="1" data-audio="audio/kwartet5.ogg">Gershwin - Oh, lady be good!
+          <li data-id data-audio="audio/kwartet5.ogg">Gershwin - Oh, lady be good!
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -488,7 +488,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="2" data-audio="audio/kwartet4.ogg">Schubert - Taniec węgierski
+          <li data-id data-audio="audio/kwartet4.ogg">Schubert - Taniec węgierski
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -514,7 +514,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="3" data-audio="audio/kwartet2.ogg">Mozart - Sonata Da Chiesa KV 67
+          <li data-id data-audio="audio/kwartet2.ogg">Mozart - Sonata Da Chiesa KV 67
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -540,7 +540,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="4" data-audio="audio/giraConMe.mp3">Gira Con Me
+          <li data-id data-audio="audio/giraConMe.mp3">Gira Con Me
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -566,7 +566,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="5" data-audio="audio/przetanczycCalaNoc.mp3">Przetańczyć Całą Noc
+          <li data-id data-audio="audio/przetanczycCalaNoc.mp3">Przetańczyć Całą Noc
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -592,7 +592,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="6" data-audio="audio/Karolinko.mp3">Karolinko
+          <li data-id data-audio="audio/zTobaChceOgladacSwiat.mp3">Z Tobą chce oglądać świat
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -618,7 +618,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="7" data-audio="audio/myHeartWillGoOn.mp3">My heart will go on
+          <li data-id data-audio="audio/dumkaNaDwaSerca.mp3">Dumka na dwa serca
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -644,7 +644,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="8" data-audio="audio/mojaMalaBlondyneczko.mp3">Moja mała blondyneczko
+          <li data-id data-audio="audio/Karolinko.mp3">Karolinko
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -670,7 +670,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="9" data-audio="audio/Perfect.mp3">Perfect
+          <li data-id data-audio="audio/myHeartWillGoOn.mp3">My heart will go on
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -696,7 +696,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="10" data-audio="audio/VoyageVoyage.mp3">Voyage Voyage
+          <li data-id data-audio="audio/mojaMalaBlondyneczko.mp3">Moja mała blondyneczko
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -722,7 +722,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="11" data-audio="audio/kochanaUwierzMi.mp3">Kochana uwierz mi
+          <li data-id data-audio="audio/Perfect.mp3">Perfect
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -748,7 +748,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="12" data-audio="audio/felicita.mp3">Felicita
+          <li data-id data-audio="audio/VoyageVoyage.mp3">Voyage Voyage
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -774,7 +774,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="13" data-audio="audio/dawajNalewaj.mp3">Dawaj Nalewaj
+          <li data-id data-audio="audio/kochanaUwierzMi.mp3">Kochana uwierz mi
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -800,7 +800,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="14" data-audio="audio/filmowaMilosc.mp3">Filmowa Miłość
+          <li data-id data-audio="audio/felicita.mp3">Felicita
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -826,7 +826,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="15" data-audio="audio/milionBialychRoz.mp3">Milion białych róż
+          <li data-id data-audio="audio/dawajNalewaj.mp3">Dawaj Nalewaj
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -852,7 +852,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="16" data-audio="audio/bielyjeRozy.mp3">Bielyje Roze
+          <li data-id data-audio="audio/filmowaMilosc.mp3">Filmowa Miłość
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -878,7 +878,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="17" data-audio="audio/sharan.mp3">Sharan
+          <li data-id data-audio="audio/milionBialychRoz.mp3">Milion białych róż
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -904,7 +904,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="18" data-audio="audio/momentOfPeace.mp3">Moment of Peace
+          <li data-id data-audio="audio/bielyjeRozy.mp3">Bielyje Roze
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -930,7 +930,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="19" data-audio="audio/ciSara.mp3">Ci Sara
+          <li data-id data-audio="audio/sharan.mp3">Sharan
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -956,7 +956,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="20" data-audio="audio/tuSoltanoTu.mp3">Tu Soltano Tu
+          <li data-id data-audio="audio/momentOfPeace.mp3">Moment of Peace
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -982,7 +982,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="21" data-audio="audio/elBano.mp3">El Bano
+          <li data-id data-audio="audio/ciSara.mp3">Ci Sara
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -1008,7 +1008,7 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="22" data-audio="audio/tyTylkoTy.mp3">Ty tylko Ty
+          <li data-id data-audio="audio/tuSoltanoTu.mp3">Tu Soltano Tu
             <span class="playlist__active">
             <div></div> <!-- Bars -->
               <div></div>
@@ -1034,7 +1034,59 @@ include('mailer.php');
               <div></div>
             </span>
           </li>
-          <li data-id="23" data-audio="audio/jestesSzalona.mp3">Jesteś Szalona
+          <li data-id data-audio="audio/elBano.mp3">El Bano
+            <span class="playlist__active">
+            <div></div> <!-- Bars -->
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </span>
+          </li>
+          <li data-id data-audio="audio/tyTylkoTy.mp3">Ty tylko Ty
+            <span class="playlist__active">
+            <div></div> <!-- Bars -->
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </span>
+          </li>
+          <li data-id data-audio="audio/jestesSzalona.mp3">Jesteś Szalona
             <span class="playlist__active">
               <div></div> <!-- Bars -->
               <div></div>
@@ -1060,7 +1112,7 @@ include('mailer.php');
               <div></div>
           </span>
           </li>
-          <li data-id="24" data-audio="audio/Despacito.mp3">Despacito
+          <li data-id data-audio="audio/Despacito.mp3">Despacito
             <span class="playlist__active">
               <div></div> <!-- Bars -->
               <div></div>
@@ -1086,7 +1138,7 @@ include('mailer.php');
               <div></div>
           </span>
           </li>
-          <li data-id="25" data-audio="audio/Ameno.mp3">Ameno
+          <li data-id data-audio="audio/Ameno.mp3">Ameno
             <span class="playlist__active">
               <div></div> <!-- Bars -->
               <div></div>
@@ -1112,7 +1164,7 @@ include('mailer.php');
               <div></div>
           </span>
           </li>
-          <li data-id="26" data-audio="audio/Alleluja.mp3">Alleluja
+          <li data-id data-audio="audio/Alleluja.mp3">Alleluja
             <span class="playlist__active">
               <div></div> <!-- Bars -->
               <div></div>

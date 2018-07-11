@@ -1,3 +1,13 @@
+function setDataId() {
+  var parent = document.querySelector('.playlist--list');
+  var el = parent.getElementsByTagName('li');
+  for(var i=0; i<el.length;i++) {
+    el[i].setAttribute('data-id',i);
+  }
+}
+
+setDataId();
+
 
 plyr.setup(document.querySelector('.plyr'));
 var radio = document.querySelector('.plyr').plyr;
@@ -11,12 +21,8 @@ var active = null;
 
 for (i = 0; i < songs.length; i++) {
   songs[i].onclick = changeChannel;
-  // songs[i].onclick = checkActive;
 }
 
-// function checkActive(e) {
-//   alert(e.target.className);
-// }
 
 setSource(getId(songs[0]), buildSource(songs[0]));
 
@@ -37,11 +43,6 @@ function buildSource(el) {
   }];
 
   return obj;
-}
-
-function currentPlayer() {
-  // var plyrClassList = document.querySelector('.plyr').classList;
-  // console.log(JSON.stringify(plyrClassList[2]));
 }
 
 function setSource(selected, sourceAudio, play) {

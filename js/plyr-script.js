@@ -1,3 +1,13 @@
+function setDataId() {
+  var parent = document.querySelector('.playlist--list');
+  var el = parent.getElementsByTagName('li');
+  for(var i=0; i<el.length;i++) {
+    el[i].setAttribute('data-id',i);
+  }
+}
+
+setDataId();
+
 plyr.setup(document.querySelector('.plyr'));
 var radio = document.querySelector('.plyr').plyr;
 
