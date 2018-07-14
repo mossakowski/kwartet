@@ -46,6 +46,9 @@ function buildSource(el) {
 }
 
 function setSource(selected, sourceAudio, play) {
+
+  var activeSongAnimate = "<span class='playlist__active'><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></span>"
+
   if (active !== selected) {
     active = selected;
     radio.source({
@@ -59,18 +62,21 @@ function setSource(selected, sourceAudio, play) {
     for (var i = 0; i < songs.length; i++) {
       if (Number(songs[i].getAttribute('data-id')) === selected) {
         songs[i].className = 'active';
+        songs[i].innerHTML = songs[i].innerHTML + activeSongAnimate;
       } else {
         songs[i].className = '';
+        var removeAnimate = songs[i].getElementsByClassName('playlist__active');
+        if(removeAnimate.length > 0) {
+          removeAnimate[0].parentNode.removeChild(removeAnimate[0]);
+        }
       }
     }
 
     if (play) {
       radio.play();
-      currentPlayer();
     }
   } else {
     radio.togglePlay();
-    currentPlayer();
   }
 }
 

@@ -437,758 +437,87 @@ include('mailer.php');
       <div class="test">
         <ul class='playlist--list'>
           <li data-id data-audio="audio/kwartet2.ogg">Scott Joplin - Country Club
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </span>
           </li>
           <li data-id data-audio="audio/kwartet5.ogg">Gershwin - Oh, lady be good!
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
           </li>
           <li data-id data-audio="audio/kwartet4.ogg">Schubert - Taniec węgierski
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
           </li>
           <li data-id data-audio="audio/kwartet2.ogg">Mozart - Sonata Da Chiesa KV 67
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
           </li>
           <li data-id data-audio="audio/giraConMe.mp3">Gira Con Me
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/przetanczycCalaNoc.mp3">Przetańczyć Całą Noc
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/zTobaChceOgladacSwiat.mp3">Z Tobą chce oglądać świat
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/dumkaNaDwaSerca.mp3">Dumka na dwa serca
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/Karolinko.mp3">Karolinko
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/myHeartWillGoOn.mp3">My heart will go on
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/mojaMalaBlondyneczko.mp3">Moja mała blondyneczko
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/Perfect.mp3">Perfect
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/VoyageVoyage.mp3">Voyage Voyage
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/kochanaUwierzMi.mp3">Kochana uwierz mi
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/felicita.mp3">Felicita
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/dawajNalewaj.mp3">Dawaj Nalewaj
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/filmowaMilosc.mp3">Filmowa Miłość
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/milionBialychRoz.mp3">Milion białych róż
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/bielyjeRozy.mp3">Bielyje Roze
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/sharan.mp3">Sharan
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/momentOfPeace.mp3">Moment of Peace
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/ciSara.mp3">Ci Sara
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/tuSoltanoTu.mp3">Tu Soltano Tu
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/elBano.mp3">El Bano
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/tyTylkoTy.mp3">Ty tylko Ty
-            <span class="playlist__active">
-            <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </span>
+
           </li>
           <li data-id data-audio="audio/jestesSzalona.mp3">Jesteś Szalona
-            <span class="playlist__active">
-              <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-          </span>
+
           </li>
           <li data-id data-audio="audio/Despacito.mp3">Despacito
-            <span class="playlist__active">
-              <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-          </span>
+
           </li>
           <li data-id data-audio="audio/Ameno.mp3">Ameno
-            <span class="playlist__active">
-              <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-          </span>
+
           </li>
           <li data-id data-audio="audio/Alleluja.mp3">Alleluja
-            <span class="playlist__active">
-              <div></div> <!-- Bars -->
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-          </span>
+
           </li>
 
         </ul>
@@ -1281,8 +610,8 @@ include('mailer.php');
     <div class="container-fluid">
       <div class="row d-flex align-items-center">
         <div class="col-md-4 col-sm-4 mb-3">
-          <div class="text-center">
-            <b>Konsultacje Ślubne</b><br> tel: +48 729-988-640
+          <div class="text-center text-logo">
+            <b>Aranżacje utworów</b><br> tel: +48 729-988-640
           </div>
         </div>
         <div class="col-md-4 col-sm-4 text-center mb-3">
@@ -1308,7 +637,6 @@ include('mailer.php');
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="tether/dist/js/tether.min.js"></script>
   <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- <script src="js/docs.min.js"></script> -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
   <script src="js/parallax.min.js"></script>
   <script src="js/jssor.slider.min.js"></script>
@@ -1316,8 +644,6 @@ include('mailer.php');
   <script src="js/lazyScroll.js"></script>
   <script src="js/heightMenu.js"></script>
   <script src="js/validation.js"></script>
-
-  <!-- <script src="node_modules/plyr/dist/plyr.js"></script> -->
   <script src="https://cdn.plyr.io/1.6.13/plyr.js"></script>
   <script src="js/plyr.js"></script>
   <script src="https://cdn.plyr.io/3.3.8/plyr.polyfilled.js"></script>
@@ -1328,7 +654,7 @@ include('mailer.php');
     footerYear.innerHTML = currentYear.getFullYear();
   </script>
 
-<!-- <script src="http://localhost:35729/livereload.js"></script> -->
+<script src="http://localhost:35729/livereload.js"></script>
 
 </body>
 
